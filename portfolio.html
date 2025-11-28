@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="indexfinal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   
+  <!---------- header -------------->
+  <header class="header">
+      <a href="#"><img src="hub.png" alt="logo"></a>
+    <div class="navMenu" id="navMenu">
+      <i class='bx bx-window-close' onclick="closeMenu()"></i>
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+  </header>
+  
+  <!--------- sub-header session ---------->
+  <section class="sub-header" id="sub-header">
+       <h1><span>Recent</span> Activities</h1>  
+  </section>
+  
+  <!--------- portfolio ------------>
+  <section class="portfolio" id="portfolio">
+      <div class="sub-text-title">
+        <h2><span>Frontend Development</span> projects</h2>  
+      </div>
+      <div class="portfolio-content">
+          <div class="row">
+              <img src="./Images/portfolio1.png" alt="">
+              <div class="cover">
+                  <h5>Visual Designs</h5>
+                  <p>I create strong, memorable brand identities that communicate clarity and personality.</p>
+             <a href="#"><i class="bx bx-code"></i></a>
+              </div>
+          </div>
+          <div class="row">
+              <img src="./Images/portfolio2.png" alt="">
+              <div class="cover">
+                  <h5>Visual Designs</h5>
+                  <p>I create strong, memorable brand identities that communicate clarity and personality.</p>
+             <a href="#"><i class="bx bx-code"></i></a>
+              </div>
+          </div>
+  </section>
+  
+  <section class="portfolio" id="portfolio">
+      <div class="sub-text-title">
+        <h2><span>Graphics Design</span> projects</h2>  
+      </div>
+      <div class="portfolio-content">
+          <div class="row">
+              <img src="./Images/portfolio3.png" alt="">
+              <div class="cover">
+                  <h5>Visual Designs</h5>
+                  <p>I create strong, memorable brand identities that communicate clarity and personality.</p>
+             <a href="#"><i class="bx bx-code"></i></a>
+              </div>
+          </div>
+          <div class="row">
+              <img src="./Images/photo.png" alt="">
+              <div class="cover">
+                  <h5>Visual Designs</h5>
+                  <p>I create strong, memorable brand identities that communicate clarity and personality.</p>
+             <a href="#"><i class="bx bx-code"></i></a>
+              </div>
+          </div>
+          </div>
+  </section>
+  
+  <!---------------- Others ----------------->
+  <section class="others">
+      <div class="sub-text-title">
+          <h2>Other<span> Services</span></h2>
+      </div>
+      <div class="others-img">
+          <img height="200px" width="300px" src="./Images/picture.png" alt="picture">
+          <span class="circle-spin"></span>
+      </div><br><br>
+      <div class="others-text">
+          <h3><span>Web Development</span> Training </h3><br><br>
+         <p>I create compelling visual designs that communicate ideas clearly and beautifully.</p>
+      </div>
+      <div>
+          <a href="#" class="btn">Enroll Now</a>
+      </div>
+  </section>
+  
+      <!---------- footer --------------->
+    <section class="footer">
+        <div class="attribution">
+            <p>Design With <i class='bx bx-heart'></i> By Umar Sabo Idris</p>
+        </div>
+        <div class="move-up">
+            <a href="#portfolio"><i class='bx bx-up-arrow-alt'></i>
+        </div>
+    </section>
+    
+       <!------- js for toggle Menu -------->
+    <script>
+        var navMenu = document.getElementById('navMenu');
+        
+        function openMenu() {
+            navMenu.style.right = '0';
+        }
+        
+        function closeMenu() {
+            navMenu.style.right ='-350px';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="indexfinal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!---------- header -------------->
+  <header class="header">
+      <a href="#"><img src="hub.png" alt="logo"></a>
+    <div class="navMenu" id="navMenu">
+      <i class='bx bx-window-close' onclick="closeMenu()"></i>
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+  </header>
+  
+  <!--------- sub-header session ---------->
+  <section class="sub-header" id="sub-header">
+       <h1>About <span>Me</span></h1>
+  </section>
+  
+  <!-------------- About --------------->
+  <section class="about" id="about">
+      <div class="about-img">
+          <img height="150px" width="100px" src="./Images/photo.png" alt="photo">
+      </div>
+      <div class="about-text">
+          <h4><span>I'm A </span>Design Technologist</h4>
+         <p>Design Technologist Crafting Modern Digital Experiences</p>
+      <a href="#" class="btn">Let's Talk</a>
+      </div>
+  </section>
+  
+  <!---------------- Others ----------------->
+  <section class="others" id="others">
+      <div class="sub-text-title">
+          <h2>Why <span>Me?</span></h2>
+      </div>
+      <div class="others-img">
+          <img height="200px" width="300px" src="hub.png" alt="picture">
+          <span class="circle-spin"></span>
+      </div><br><br>
+      <div class="others-text">
+          <h3><span>As A</span> Design Technologist & Future Young Web-developer</h3><br><br>
+          <p>
+              * Crafting clean code, creating bold experiences.<br><br> 
+              * Where design vision meets smart development.<br><br>
+              * Building digital beauty with purpose.<br><br>
+          </p>
+      </div>
+      <div>
+          <a href="#" class="btn">Hire Me</a>
+      </div>
+  </section>
+  
+      <!---------- footer --------------->
+    <section class="footer">
+        <div class="attribution">
+            <p>Design With <i class='bx bx-heart'></i> By Umar Sabo Idris</p>
+        </div>
+        <div class="move-up">
+            <a href="#about"><i class='bx bx-up-arrow-alt'></i>
+        </div>
+    </section>
+    
+       <!------- js for toggle Menu -------->
+    <script>
+        var navMenu = document.getElementById('navMenu');
+        
+        function openMenu() {
+            navMenu.style.right = '0';
+        }
+        
+        function closeMenu() {
+            navMenu.style.right ='-350px';
+        }
+    </script>
+</body>
+</html>

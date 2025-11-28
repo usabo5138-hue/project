@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="indexfinal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   
+  <!---------- header -------------->
+  <header class="header">
+      <a href="#"><img src="hub.png" alt="logo"></a>
+    <div class="navMenu" id="navMenu">
+      <i class='bx bx-window-close' onclick="closeMenu()"></i>
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+  </header>
+  
+  <!--------- sub-header session ---------->
+  <section class="sub-header" id="sub-header">
+       <h1><span>Contact</span> Me</h1>  
+  </section>
+
+   <!----------- contact session ----------->
+   <section class="map">
+       <div class="embed-map-fixed"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Dutse%20Gida%20dubu&t=&z=1&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://sprunkiretake.net" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">sprunki retake</a></div><style>.embed-map-fixed{position:relative;text-items: center;width:300px;height:200px;margin-left: -1.3rem;}.embed-map-container{overflow:hidden;background:none!important;width:400px;height:200px;}.embed-map-frame{width:400px!important;height:200px!important;}</style></div>
+   </section>
+  <section class="contact" id="contact">
+      <div class="contact-text">
+          <h4 class="dot">Whatever Your Project May be...</h4></h4>
+          <p>As a design technologist, I'm skilled in the latest design and development techniques, let's contact us for your needs and see how we can help you.</p>
+          
+          <div class="list">
+              <li><a href="#">*234 810 146 5138</a></li>
+              <li><a href="#">usaboidris@gmail.com</a></li>
+              <li><a href="#">Like, Share & Comment</a></li>
+          </div>
+          <div class="icons">
+              <a href="#"><i class='bx bxl-twitter' ></i></a>
+              <a href="#"><i class='bx bxl-instagram alt' ></i></a>
+              <a href="#"><i class='bx bxl-facebook' ></i></a>
+              <a href="#"><i class='bx bxl-snapchat' ></i></a>
+          </div>
+        </div>
+      <div class="contact-form">
+          <form action="">
+            <input type="name" placeholder="Your Name" required>
+            <input type="email" placeholder=" Your Email" required>
+            <input type="tel" placeholder="Your Mobile Number" required>
+        <textarea placeholder="How can I help you?" cols="23" rows="5" required></textarea>
+            <input type="submit" value="Send Message" class="submit">
+          </form>
+      </div>
+  </section> 
+  
+      <!---------- footer --------------->
+    <section class="footer">
+        <div class="attribution">
+            <p>Design With <i class='bx bx-heart'></i> By Umar Sabo Idris</p>
+        </div>
+        <div class="move-up">
+            <a href="#contact"><i class='bx bx-up-arrow-alt'></i>
+        </div>
+    </section>
+    
+       <!------- js for toggle Menu -------->
+    <script>
+        var navMenu = document.getElementById('navMenu');
+        
+        function openMenu() {
+            navMenu.style.right = '0';
+        }
+        
+        function closeMenu() {
+            navMenu.style.right ='-350px';
+        }
+    </script>
+</body>
+</html>
